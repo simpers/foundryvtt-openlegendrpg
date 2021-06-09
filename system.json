@@ -1,58 +1,70 @@
 {
-  "name": "openlegends",
-  "title": "Open Legends RPG",
-  "description": "The Open Legends RPG system for FoundryVTT!",
+  "name": "openlegend",
+  "title": "Open Legend RPG",
+  "description": "The Open Legend RPG system for FoundryVTT!",
   "version": "1.1.0",
   "minimumCoreVersion": "0.7.5",
   "compatibleCoreVersion": "0.7.9",
   "templateVersion": 2,
   "author": "Beenrak",
-  "esmodules": ["module/openlegends.js"],
-  "styles": ["css/openlegends.css"],
+  "esmodules": ["module/openlegend.js"],
+  "styles": ["css/openlegend.css"],
   "scripts": [],
   "packs": [
     {
       "name": "banes",
       "label": "Banes",
-      "system": "openlegends",
+      "system": "openlegend",
       "path": "./packs/banes.db",
       "entity": "Item"
     },{
       "name": "basic",
       "label": "Basic",
-      "system": "openlegends",
+      "system": "openlegend",
       "path": "./packs/basic.db",
       "entity": "Item"
     },{
       "name": "boons",
       "label": "Boons",
-      "system": "openlegends",
+      "system": "openlegend",
       "path": "./packs/boons.db",
       "entity": "Item"
     },{
       "name": "feats",
       "label": "Feats",
-      "system": "openlegends",
+      "system": "openlegend",
       "path": "./packs/feats.db",
       "entity": "Item"
     },{
       "name": "flaws",
       "label": "Flaws",
-      "system": "openlegends",
+      "system": "openlegend",
       "path": "./packs/flaws.db",
       "entity": "Item"
     },{
       "name": "gm-feats",
       "label": "GM-Feats",
-      "system": "openlegends",
+      "system": "openlegend",
       "path": "./packs/gm-feats.db",
       "entity": "Item"
     },{
       "name": "perks",
       "label": "Perks",
-      "system": "openlegends",
+      "system": "openlegend",
       "path": "./packs/perks.db",
       "entity": "Item"
+    },{
+      "name": "rules",
+      "label": "Rules",
+      "system": "openlegend",
+      "path": "./packs/rules.db",
+      "entity": "JournalEntry"
+    },{
+      "name": "gm-screen",
+      "label": "GM-Screen",
+      "system": "openlegend",
+      "path": "./packs/gm-screen.db",
+      "entity": "JournalEntry"
     }
   ],
   "dependencies": [
@@ -72,7 +84,7 @@
   "gridUnits": "ft",
   "primaryTokenAttribute": "health",
   "url": "https://gitlab.com/tabletop-creations/foundryvtt-openlegends",
-  "manifest": "https://gitlab.com/tabletop-creations/foundryvtt-openlegends/-/raw/master/system.json",
-  "download": "https://gitlab.com/tabletop-creations/foundryvtt-openlegends/-/archive/master/foundryvtt-openlegends-master.zip",
+  "manifest": "https://gitlab.com/tabletop-creations/foundryvtt-openlegends/-/raw/feature/fvtt_7/system.json",
+  "download": "https://gitlab.com/tabletop-creations/foundryvtt-openlegends/-/archive/feature/fvtt_7/foundryvtt-openlegends-feature-fvtt_7.zip",
   "license": "LICENSE.txt"
 }
